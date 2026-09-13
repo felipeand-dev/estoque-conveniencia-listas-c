@@ -134,9 +134,6 @@ Todas as listas utilizam memoria `O(n)`, pois existe um no alocado dinamicamente
 - A memoria e liberada ao esvaziar uma lista e tambem antes do encerramento do programa.
 - A busca utiliza `strstr`, permitindo procurar tanto o nome completo quanto parte dele.
 
-## Integrantes
-
-- Nome: preencher
 
 ## Licenca
 
