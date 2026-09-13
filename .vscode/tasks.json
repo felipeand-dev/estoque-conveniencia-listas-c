@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc build estoque",
+      "command": "/usr/bin/gcc",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-Wall",
+        "-Wextra",
+        "-std=c99",
+        "-g",
+        "${workspaceFolder}/main.c",
+        "${workspaceFolder}/produtos.c",
+        "${workspaceFolder}/somples/simples.c",
+        "${workspaceFolder}/dupla/dupla.c",
+        "${workspaceFolder}/circular/circular.c",
+        "-o",
+        "${workspaceFolder}/estoque"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Compila todos os modulos do sistema de estoque."
+    }
+  ],
+  "version": "2.0.0"
+}
